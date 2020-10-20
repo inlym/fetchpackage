@@ -38,7 +38,7 @@ fetchnpm({
 | :------: | :-----: | :------: | :------: | :----------------------------------------------------------: |
 |   path   | string  | '/data'  |    否    |                   下载路径，默认为当前目录                   |
 | package  | string  | 'axios'  |    是    |                    要下载的 NPM 包的包名                     |
-| registry | string  | 'taobao' |    否    | 下载源，默认官方源。office 或 npm 表示使用官方源，taobao 或 cnpm 表示使用淘宝源。其他源请直接填入源地址。 |
+| registry | string  | 'taobao' |    否    | 下载源，默认官方源。official 或 npm 表示使用官方源，taobao 或 cnpm 表示使用淘宝源。其他源请直接填入源地址。 |
 |  global  | boolean |  false   |    否    |                    是否全局安装，默认为否                    |
 
 
