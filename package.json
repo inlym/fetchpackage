@@ -1,0 +1,20 @@
+{
+  "name": "fetchnpm",
+  "version": "1.0.0",
+  "description": "在函数调用中下载 NPM 包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inlym/fetchnpm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inlym/fetchnpm/issues"
+  },
+  "homepage": "https://github.com/inlym/fetchnpm#readme"
+}
