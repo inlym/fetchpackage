@@ -1,18 +1,18 @@
-# fetchnpm
+# fetchpackage
 在函数调用中下载 NPM 包
 
 
 
 ## 简介
 
-某些特殊的情况下，无法预先下载安装 NPM 包，需要在代码运行时动态下载安装 NPM 包。使用 fetchnpm 可以直接在代码执行时动态下载安装指定的 NPM 包
+某些特殊的情况下，无法预先下载安装 NPM 包，需要在代码运行时动态下载安装 NPM 包。使用 fetchpackage 可以直接在代码执行时动态下载安装指定的 NPM 包
 
 
 
 ## 安装
 
 ```
-npm i fetchnpm
+npm i fetchpackage
 ```
 
 
@@ -20,9 +20,9 @@ npm i fetchnpm
 ## 使用
 
 ```
-const fetchnpm = require('fetchnpm')
+const fetchpackage = require('fetchpackage')
 
-fetchnpm({
+fetchpackage({
 	path: './',    // 指定下载目录
 	package: 'package_name',    // 指定下载的 NPM 包名
 	registry: 'taobao',    // 指定下载源
