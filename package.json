@@ -1,6 +1,6 @@
 {
 	"name": "fetchpackage",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "在函数调用中下载 NPM 包",
 	"main": "index.js",
 	"scripts": {
