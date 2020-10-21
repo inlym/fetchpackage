@@ -24,7 +24,7 @@ const fetchpackage = require('fetchpackage')
 
 fetchpackage({
 	path: './',    // 指定下载目录
-	package: 'package_name',    // 指定下载的 NPM 包名
+	name: 'package_name',    // 指定下载的 NPM 包名
 	registry: 'taobao',    // 指定下载源
 	global: false,    // 指定是否全局安装
 })
